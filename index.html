@@ -1,37 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/57ded0e204.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PERCENTAGE CALCULATOR</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
-  <title>CALCULADORA DE PORCENTAGEM</title>
-</head>
-
-<body>
-  <header>
-    <h1>CALCULADORA DE PORCENTAGEM</h1>
-  </header>
-  <main>
-    <input oninput="calcularPorcentagem()" type="number" id="valor" placeholder="Valor...">
-    <input oninput="calcularPorcentagem()" type="number" id="porcentagem" placeholder="Porcentagem...">
-    <p id="resultado">O RESULTADO VAI APARECER AQUI</p>
-    <p>Para calcular porcentagem de um valor, basta multiplicar a porcentagem pelo valor e dividir por cem.</p>
-  </main>
-  <footer>
-    <ul>
-      <li>
-        <h4>CONTATO</h4>
-      </li>
-      <li><a target="_blank" href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/"><i class="fab fa-linkedin-in"></i>Linkedin/andrierlison-da-silva</a></li>
-      <li><a target="_blank" href="https://github.com/Andrierlison"><i class="fab fa-github-alt"></i>Github.com/Andrierlison</a></li>
-      <li><a href="mailto:andrierlisonsilva8@gmail.com"><i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a></li>
-    </ul>
-    <p>DESENVOLVIDO POR ANDRIERLISON</p>
-  </footer>
-  <script src="js/calcular_porcentagem.js"></script>
-</body>
-
+  <body>
+    <header>
+      <h1>PERCENTAGE CALCULATOR</h1>
+    </header>
+    <main>
+      <input
+        oninput="calculatePercentage()"
+        type="number"
+        id="value"
+        placeholder="Value..."
+      />
+      <input
+        oninput="calculatePercentage()"
+        type="number"
+        id="percentage"
+        placeholder="Percentage..."
+      />
+      <p id="result">THE RESULT WILL APPEAR HERE</p>
+      <p>
+        To calculate percentage of a value, just multiply the percentage by the
+        value and divide by a hundred.
+      </p>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <h4>CONTACT</h4>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/"
+          >
+            <i class="fab fa-linkedin-in"> </i> Linkedin/andrierlison-da-silva
+          </a>
+        </li>
+        <li>
+          <a target="_ blank" href="https://github.com/Andrierlison">
+            <i class="fab fa-github-alt"> </i> Github.com/Andrierlison</a
+          >
+        </li>
+        <li>
+          <a href="mailto: andrierlisonsilva8@gmail.com">
+            <i class="fas fa-envelope"> </i> andrierlisonsilva8@gmail.com
+          </a>
+        </li>
+      </ul>
+      <p>DEVELOPED BY ANDRIERLISON</p>
+    </footer>
+    <script src="js/calculatePercentage.js"></script>
+  </body>
 </html>
