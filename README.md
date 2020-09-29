@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="hhttps://andrierlison.github.io/percentage-calculator/">🔗Percentage Calculator</a>
+    <a href="https://andrierlison.github.io/percentage-calculator/">🔗Percentage Calculator</a>
 </h1>
 
 <p align="center">A simple percentage calculator.</p>
