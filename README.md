@@ -20,7 +20,7 @@
 - [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 
-    <h1>Copy</h1>
+    <h2>Copy</h2>
 
     <p>You can feel free to copy the page</p>
 
@@ -28,7 +28,7 @@
 
     <p>In addition, it is good to have an editor to work with the code as <a href="https://code.visualstudio.com/">VSCode</a></p>
 
-    <h1>Clone this repository</h1>
+    <h2>Clone this repository</h2>
 
     ```
 
@@ -40,7 +40,7 @@
 
     ```
 
-    <h1 id="author">Author</h1>
+    <h2 id="author">Author</h2>
 
     <img 
     src="https://avatars1.githubusercontent.com/u/58059077?s=460&u=fe7710f54c3de191e906a30fd79877cecd312e9b&v=4"
